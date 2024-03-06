@@ -56,7 +56,7 @@ public class tut5Controller {
         }
     }
 
-    @GetMapping("/users/{id}")
+    @GetMapping("/user/{id}")
     public ResponseEntity<?> getUser(@PathVariable String id)
     {
         getResponse res = new getResponse();
